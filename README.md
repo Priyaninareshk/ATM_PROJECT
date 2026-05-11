@@ -77,4 +77,5 @@ npm run dev
 - Deployed Backend and Frontend in Rendor
 - Frontend: https://atm-project-ui.onrender.com/
 - Backend: https://atm-project-077f.onrender.com/
+- Test Backend health: https://atm-project-077f.onrender.com/api/health
 
