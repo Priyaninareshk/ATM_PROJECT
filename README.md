@@ -74,15 +74,7 @@ npm run dev
 - Authorization checks enforce account ownership
 
 ## Render Deployment (Client + Server)
-1. Push project to GitHub.
-2. Create two Render services:
-- Web Service for `server/`
-- Static Site for `client/`
-3. Server env vars:
-- `MONGO_URI`, `JWT_SECRET`, `CLIENT_URL`, `NODE_ENV=production`, etc.
-4. Client env var:
-- `VITE_API_BASE_URL=https://<server-service-url>/api`
-5. Update `CLIENT_URL` in server env to deployed client URL.
+- Deployed Backend and Frontend in Rendor
+- Frontend: https://atm-project-ui.onrender.com/
+- Backend: https://atm-project-077f.onrender.com/
 
-## Optional Demo Video (3–5 minutes)
-Show signup/login, dashboard balance, deposit, withdrawal with insufficient funds case, transaction history, and inactivity auto-logout.
